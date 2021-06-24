@@ -1,0 +1,87 @@
+@media screen and (max-width: 1280px) {
+	#liseret {
+		display: none;
+	}
+	section {
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		margin: auto;
+	}
+}
+
+
+
+@font-face {
+font-family: "Bahnschrift";
+src: url('fonts/Bahnschrift.ttf') format('truetype');
+}
+
+body {
+	background-color: rgba(200,200,200,0.8);
+}
+header {
+	display: flex;
+	/*justify-content: center;*/
+	justify-content: space-around;
+}
+header img {
+		max-width: 150px;
+		max-height: 150px;
+		border-radius: 100px;
+}
+
+#bloc_page {
+	display: flex;
+}
+section {
+	display: flex;
+	justify-content: flex-end;
+}
+#liseret img {
+	max-height: 800px;
+	max-width: 300px;
+	margin-right: 1em;
+	border-radius: 15px;
+	box-shadow: 10px 5px 10px gray;
+	}
+
+
+}
+h1
+{
+	color: Gray;
+	font-size: 4em;
+	font-family: "Bahnschrift", Arial, serif;
+	font-weight: bold; 
+}
+
+h2
+{
+	color: Gray;
+	font-size: 2em;
+	font-family: "Bahnschrift", Arial, serif;
+	font-weight: bold; 
+}
+
+h3
+{
+	color: Gray;
+	font-size: 1.5em;
+	font-family: "Bahnschrift", Arial, serif;
+	font-weight: bold; 
+}
+
+p
+{
+	font-family: 'Comic Sans MS', sans-serif, Arial, 'comic sans sc'; /* test de choix de police */
+	font-size: 1em;
+	color: black;
+}
+p:hover {
+	background-color: gray;
+}
+
+a:hover {
+
+}
